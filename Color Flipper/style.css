@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #acb6e5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    
+}
+
+#main{
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center; 
+    justify-content: center;
+    height: 25%;
+    width: 25%;
+    
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 2rem;
+    border: 2px solid grey;
+}
+
+#main2{
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center; 
+    justify-content: center;
+    height: 25%;
+    width: 25%;
+    
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 2rem;
+    border: 2px solid grey;
+}
+#main-text{
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color:silver;
+}
+
+#btn1{
+    margin:25px 25px;
+    padding: 5px;
+    border-radius: .5rem;
+    background: #DA22FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: silver;
+border: 2px solid darkgray;
+
+
+}
+
+
+#row1{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+
+   
+}
+#row2{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+   
+}
+#box1{
+    margin: 20px 20px;
+    padding: 30px;
+    background: #D31027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #EA384D, #D31027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #EA384D, #D31027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    border-radius: 1rem;
+}
+#box2{
+    margin: 20px 20px;
+    padding: 30px;
+    background: #314755;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #26a0da, #314755);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #26a0da, #314755); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 1rem;
+}
+#box3{
+    margin: 20px 20px;
+    padding: 30px;
+    background: #e65c00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #F9D423, #e65c00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #F9D423, #e65c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    border-radius: 1rem;
+}
+#box4{
+    margin: 20px 20px;
+    padding: 30px;
+    background: #02AAB0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #00CDAC, #02AAB0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #00CDAC, #02AAB0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 1rem;
+}
+
+#maintext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#intro-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: silver;
+}
+#intro-btn{
+    margin:25px 25px;
+    padding:5px;
+    background-color: gold;
+    border-radius: 1rem;
+}
